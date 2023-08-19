@@ -1,0 +1,68 @@
+﻿<?xml version="1.0" encoding="utf-8" ?>
+<ContentPage xmlns="http://xamarin.com/schemas/2014/forms"
+             xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml"
+             x:Class="midproj.MainPage"
+             Title="Home">
+
+    <ScrollView BackgroundColor="#F0DAAE">
+        <StackLayout Padding="30" Spacing="10">
+            <Label x:Name="mainheader"
+                   HorizontalOptions="CenterAndExpand"
+                   FontSize="35" FontFamily="PlayfairDisplay-Bold"
+                   Text="Hearth  n  Home" TextColor="#895D2B"/>
+            <Image Source="candle3.png"
+                   Margin="50"
+                   HeightRequest="200"/>
+
+            <StackLayout Margin="10" Padding="5" Spacing="15">
+                <Label x:Name="mparti1"
+                       Padding="20"
+                       HorizontalOptions="CenterAndExpand"
+                       FontSize="14"
+                       Text="Welcome to Hearth n Home with your local herbalist, where we learn herbalogy and witchcrafting."
+                       TextColor="#895D2B"/>
+            </StackLayout>
+
+            <StackLayout Margin="5" Padding="15" Spacing="15">
+                <Label x:Name="mparti1"
+                       FontSize="20"
+                       Text="Herbalism" TextColor="#895D2B"/>
+
+                <StackLayout Orientation="Horizontal">
+                    <ImageButton Source="herb4.jpg"
+                                 HeightRequest="150"
+                                 CornerRadius="10"/>
+                    <Label x:Name="mpquote"
+                           FontSize="15"
+                           Text="is herbal medicine, also known as botanical medicine, medical herbalism, herbology, and phytotherapy. Herbalist was called who learn about "
+                           TextColor="#895D2B"/>
+                </StackLayout>
+
+                <Label x:Name="mpquote"
+                       FontSize="15"
+                       Text="herbology. Herbalist also used herbal medicine instead of chemical medicine."
+                       TextColor="#895D2B"/>
+            </StackLayout>
+
+            <StackLayout Margin="10" Padding="5" Spacing="10"
+                         HorizontalOptions="CenterAndExpand">
+                <Label x:Name="mparti2"
+                       HorizontalOptions="CenterAndExpand"
+                       FontSize="20"
+                       Text="Herbalism and Witchcraft" TextColor="#895D2B"/>
+                <ImageButton Source="herb3.png"
+                             Scale="0.9"
+                             CornerRadius="10"/>
+                <Label x:Name="mparti3"
+                       FontSize="15"
+                       Text="Herbalism and witchcraft has been pair together since ancient time, herbs and spices were used to cure illness and mental health 'til modern age."
+                       TextColor="#895D2B"/>
+
+                <Label x:Name="mparti4"
+                       FontSize="15"
+                       Text="Witches also use herbs in their spells and rituals long long times ago. You can tell that a witch is also a herbalst but not all herbalist is a witch. And we, witches gathering, drying and ferment our herbs with care and knownledge between it benefit and magick, how it affect our body, our mind, in planetary placement in astrology."
+                       TextColor="#895D2B"/>
+            </StackLayout>
+        </StackLayout>
+    </ScrollView>
+</ContentPage>

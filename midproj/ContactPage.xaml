@@ -1,0 +1,35 @@
+﻿<?xml version="1.0" encoding="utf-8" ?>
+<ContentPage xmlns="http://xamarin.com/schemas/2014/forms"
+             xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml"
+             x:Class="midproj.ContactPage">
+
+    <ContentPage.Content>
+        <StackLayout BackgroundColor="#482E1D">
+            <Frame BackgroundColor="#A9B388"
+                   Margin="30" Padding="15"
+                   HeightRequest="600"
+                   VerticalOptions="CenterAndExpand"
+                   CornerRadius="10">
+                <StackLayout>
+                    <Label Margin="15" HorizontalOptions="Center"
+                           FontSize="25" FontFamily="PlayfairDisplay-Bold"
+                           Text="Your local hearth witch" TextColor="#482E1D"/>
+                    <ImageButton Margin="10"
+                                 Source="usericon.jpg"
+                                 CornerRadius="10"/>
+                    <Entry x:Name="id"
+                               Placeholder="ID" Keyboard="Telephone"
+                               PlaceholderColor="#F0DAAE"/>
+                    <Entry x:Name="user" 
+                       Placeholder="User name" Keyboard="Text"
+                       PlaceholderColor="#F0DAAE"/>
+                    <Button x:Name="loginbutt"
+                            Margin="20" 
+                            VerticalOptions="CenterAndExpand" HorizontalOptions="Center"
+                            BackgroundColor="#F0DAAE"
+                            Text="Log in" TextColor="#482E1D"/>
+                </StackLayout>
+            </Frame>
+        </StackLayout>
+    </ContentPage.Content>
+</ContentPage>

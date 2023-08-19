@@ -1,0 +1,68 @@
+﻿<?xml version="1.0" encoding="utf-8" ?>
+<ContentPage xmlns="http://xamarin.com/schemas/2014/forms"
+             xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml"
+             x:Class="midproj.MenuPage"
+             Title="Menu">
+    
+    <ContentPage.Content>
+        <StackLayout BackgroundColor="#A3966A">
+            <StackLayout Padding="30" Spacing="10">
+                <Label x:Name="menuheader"
+                       HorizontalOptions="CenterAndExpand"
+                       FontSize="25" FontFamily="PlayfairDisplay-Bold"
+                       Text="Herth n Home" TextColor="#F0DAAE"/>
+            </StackLayout>
+
+            <Image HeightRequest="150" 
+                   Source="hangherbs.png"/>
+
+            <StackLayout Margin="15" Padding="15" Spacing="20">
+                <StackLayout Orientation="Horizontal">
+                    <Image Source="homeicon1.png"
+                           WidthRequest="50"/>
+                    <Button x:Name="homeb"
+                            HorizontalOptions="StartAndExpand"
+                            BackgroundColor="Transparent"
+                            Text="Home" TextColor="#F0DAAE"/>
+                </StackLayout>
+
+                <StackLayout Orientation="Horizontal">
+                    <Image Source="wpicon.png"
+                           WidthRequest="50"/>
+                    <Button x:Name="witchespathb"
+                            HorizontalOptions="StartAndExpand"
+                            BackgroundColor="Transparent"
+                            Text="Witches Path" TextColor="#F0DAAE"/>
+                </StackLayout>
+
+                <StackLayout Orientation="Horizontal">
+                    <Image Source="mwicon.png"
+                           WidthRequest="50"/>
+                    <Button x:Name="modernwitchcraftb"
+                            HorizontalOptions="StartAndExpand"
+                            BackgroundColor="Transparent"
+                            Text="Modern Witchcraft" TextColor="#F0DAAE"/>
+                </StackLayout>
+
+                <StackLayout Orientation="Horizontal">
+                    <Image Source="hahicon.png"
+                           WidthRequest="50"/>
+                    <Button x:Name="herbsathomeb"
+                            HorizontalOptions="StartAndExpand"
+                            BackgroundColor="Transparent"
+                            Text="Herbs at Home" TextColor="#F0DAAE"/>
+                </StackLayout>
+            </StackLayout>
+
+            <StackLayout Margin="10" Padding="30">
+                <StackLayout Padding="5"/>
+                <Button x:Name="contactb"
+                        HorizontalOptions="EndAndExpand"
+                        BackgroundColor="Transparent" 
+                        BorderWidth="1.5" BorderColor="#F0DAAE"
+                        CornerRadius="8"
+                        Text="Contact" TextColor="#F0DAAE"/>
+            </StackLayout>
+        </StackLayout>
+    </ContentPage.Content>
+</ContentPage>

@@ -1,0 +1,45 @@
+﻿<?xml version="1.0" encoding="utf-8" ?>
+<ContentPage xmlns="http://xamarin.com/schemas/2014/forms"
+             xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml"
+             x:Class="midproj.Page1"
+             Title="Witches Path">
+
+    <ContentPage.Content>
+        <StackLayout BackgroundColor="#F0DAAE">
+            <StackLayout Margin="30">
+                <StackLayout Spacing="30">
+                    <Label x:Name="wpheader"
+                       HorizontalOptions="Center"
+                       FontSize="45" FontFamily="PlayfairDisplay-Bold"
+                       Text="Witches Path" TextColor="#895D2B"/>
+
+                    <StackLayout Orientation="Horizontal">
+                        <Label FontSize="14" 
+                                   Text="is all about raising your Witchcraft practice to the next level, whether you're beginner or not. Each of witch's path is different, there's a constrast and combine with any practices that come together."
+                                   TextColor="#895D2B"/>
+                        <Image Source="wpicon.png"
+                               WidthRequest="150"/>
+                    </StackLayout>
+                </StackLayout>
+            </StackLayout>
+
+            <ImageButton Margin="10" Source="pic3"
+                         CornerRadius="8"/>
+
+            <StackLayout Margin="30" Spacing="18">
+                <Label x:Name="wparti1"
+                       FontSize="Body"
+                       Text="   With different path, there's leading the witche, practitioner to their better self."
+                       TextColor="#895D2B"/>
+                <Label x:Name="wparti2"
+                       FontSize="Body"
+                       Text="   Some learn from their past life. Some learn from divine being. And other learn from their ancestor, the traditional practice like Italian folk witches; who perform their art of witchcraft through salt, herbs; who cleanse and banish badluck with olive oil, protecting themself by praying to archangel Michael."
+                       TextColor="#895D2B"/>
+                <Label x:Name="wparti3"
+                       FontSize="Body"
+                       Text="   There's nothing wrong with anything, only if you always know what you do, understand what intention you lead yourself to."
+                       TextColor="#895D2B"/>
+            </StackLayout>
+        </StackLayout>
+    </ContentPage.Content>
+</ContentPage>

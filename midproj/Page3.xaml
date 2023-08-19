@@ -1,0 +1,72 @@
+﻿<?xml version="1.0" encoding="utf-8" ?>
+<ContentPage xmlns="http://xamarin.com/schemas/2014/forms"
+             xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml"
+             x:Class="midproj.Page3"
+             Title="Herbs at Home">
+    
+    <ContentPage.Content>
+        <ScrollView BackgroundColor="#F0DAAE">
+            <StackLayout Margin="30" Padding="5" Spacing="10">
+                <StackLayout Orientation="Horizontal">
+                    <Image Source="hahicon.png"
+                           WidthRequest="150" HorizontalOptions="Start"/>
+                    <Label x:Name="hahheader"
+                           Margin="15"
+                           HorizontalOptions="Center"
+                           FontSize="35" FontFamily="PlayfairDisplay-Bold"
+                           Text="Herbs at Home" TextColor="#895D2B"/>
+                </StackLayout>
+
+                <StackLayout Margin="50">
+                    <Label HorizontalOptions="CenterAndExpand" 
+                           FontSize="14"
+                           Text="Brew your magick" TextColor="#895D2B"/>
+                    <Label HorizontalOptions="CenterAndExpand" 
+                           Text="witch your hearth herbs" TextColor="#895D2B"/>
+                </StackLayout>
+                
+                <ImageButton Source="herb2"
+                             CornerRadius="8"/>
+
+                <StackLayout Margin="15" Spacing="15">
+                    <Label x:Name="haharti1"
+                           FontSize="Body"
+                           Text="   Herbs has been used in longs, it also has been used in witchcraft as much as used in kitchen."
+                           TextColor="#895D2B"/>
+                    <Label x:Name="haharti2"
+                           FontSize="Body"
+                           Text="   Also us, practitioner or we call ourselves witch. We do use herbs in our practice a lot, work with it even. Some of witches are kitchen witch, hedge witch, green witch, etc work with it specificly."
+                           TextColor="#895D2B"/>
+                </StackLayout>
+
+                <StackLayout>
+                    <StackLayout Orientation="Horizontal">
+                        <ImageButton Source="pic1.png"
+                                     HeightRequest="150"
+                                     BackgroundColor="Transparent"
+                                     CornerRadius="10"/>
+                        <Label x:Name="haharti3"
+                               Padding="5"
+                               FontSize="Body"
+                               Text="But that's not why this is called 'Hearth and Home'. The Hearth is where the home is. It means home is the core of our practice as hearth witch. We sprink some salts and lavender essential oil in"
+                               TextColor="#895D2B"/>
+                        
+                    </StackLayout>
+                    <Label FontSize="Body"
+                           HorizontalOptions="End"
+                           Text="water to swap the floor, make the tea with herbs and spices such as chamomile, rose, ginger in morning and before bed."
+                           TextColor="#895D2B"/>
+                    <Label/>
+                </StackLayout>
+
+                <StackLayout>
+                    <Label x:Name="haharti4"
+                           FontSize="Body"
+                           Text="  Also we do celebrate the witches' sabbath in our home or forest near our home. Thank the deities of the season, garthering in our garden and make hand-crafting with."
+                           TextColor="#895D2B"/>
+                    <Label Margin="15"/>
+                </StackLayout>
+            </StackLayout>
+        </ScrollView>
+    </ContentPage.Content>
+</ContentPage>

@@ -1,0 +1,27 @@
+﻿<?xml version="1.0" encoding="utf-8" ?>
+<ContentPage xmlns="http://xamarin.com/schemas/2014/forms"
+             xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml"
+             x:Class="midproj.Page2"
+             Title="Modern Witchcraft">
+    
+    <ContentPage.Content>
+        <StackLayout BackgroundColor="#F0DAAE">
+            <StackLayout Margin="30" Spacing="15">
+                <Image Source="mwicon.png"
+                       HeightRequest="200"/>
+                <Label x:Name="mwheader"
+                       Margin="15"
+                       HorizontalOptions="Center"
+                       FontSize="30" FontFamily="PlayfairDisplay-Bold"
+                       Text="Modern Witchcraft" TextColor="#895D2B"/>
+                
+                <StackLayout Margin="15" Padding="20" Spacing="20">
+                    <Label x:Name="mwarti1" 
+                           FontSize="14"
+                           Text="Witches has been practicing witchcraft since ancient period. Nowsday the knowledge been past blood line through blood line, and the ancient one kinda indecent for a 21th century. So we decide to make it more suitable in this modern time."
+                           TextColor="#895D2B"/>
+                </StackLayout>
+            </StackLayout>
+        </StackLayout>
+    </ContentPage.Content>
+</ContentPage>
